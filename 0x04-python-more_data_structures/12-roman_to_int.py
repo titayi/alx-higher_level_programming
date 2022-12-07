@@ -6,7 +6,8 @@ def roman_to_int(roman_string):
     def_roman = 0
     for t in range(len(roman_string)):
         if t > 0 and roman_num[roman_string[t]] > roman_num[roman_string[t - 1]]:
-            def_roman += roman_num[roman_string[t]] - 2 * roman_num[roman_string[t - 1]]
+            def_roman += roman_num[roman_string[t]] - 2 * \
+                    roman_num[roman_string[t - 1]]
         else:
             def_roman += roman_num[roman_string[t]]
     return def_roman
