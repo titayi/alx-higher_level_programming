@@ -3,5 +3,6 @@
 
 
 class Square:
-    """ Defines an empty square """
+
+    """ Defines an empty block """
     pass
