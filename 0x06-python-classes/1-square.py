@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-""" No imported Module """
+""" Defining the class Square """
 
 
 class Square:
-    """ Defined the class """
-    def __init__(self, size):
-        """ Instantiating size """
+    """ Defining the square """
 
+    def __init__(self, size):
+        """ Initializing size """
         self.__size = size
