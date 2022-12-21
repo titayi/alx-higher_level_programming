@@ -10,8 +10,8 @@ class MagicClass:
 
     def __init__(self, radius=0):
         """ Args:
-                self - Param 1 
-                radius - Param 2 
+                self - Param 1
+                radius - Param 2
 
                 Initializing """
         self.__radius = radius
